@@ -1,0 +1,56 @@
+.footer{
+    margin: 40px 20px;
+    .linkWArrow{
+        cursor: pointer;
+    }
+    .top{
+        margin-top: 50px;
+        display: flex;
+        width: 100%;
+        .sitemap{
+            float: left;
+            width: 70%;
+            height: 400px;
+            .footer-logo{
+                display: flex;
+                transform: translateY(100px);
+                img{
+                    width: 40%;
+                }
+            }
+        }
+        .links{
+            float: left;
+            width: 20%;
+            .subtitle{
+                margin-bottom: 20px;
+            }
+            .linkWArrow{
+                margin-top: 10px;
+            }
+        }
+        .template{
+            .subtitle{
+                margin-bottom: 20px;
+            }
+            .linkWArrow{
+                margin-top: 10px;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        width: 100%;
+        font-size: 12px;
+        color: var(--light-08);
+        .bottom-1{
+            float: left;
+            width: 70%;
+        }
+        .bottom-2{
+            float: left;
+            width: 20%;
+        }
+    }
+
+}

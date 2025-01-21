@@ -1,0 +1,44 @@
+.booking{
+    margin: 0 20px;
+    .headings{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            margin: 0;
+        }
+        h1{
+            margin: 0;
+        }
+    }
+    .contents{
+        display: flex;
+        .left-col{
+            display: flex;
+            flex-direction: column;
+            float: left;
+            width: 30%;
+            border-right: solid 1px var(--light-03);
+            h3{
+                border-bottom: solid 1px var(--light-03);
+                margin: 0;
+                padding-bottom: 35px;
+            }
+            .bookNow,
+            .visitUs,
+            .socials
+            {
+                margin-bottom: 70px;
+                h4{
+                    margin: 0;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                .decs{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

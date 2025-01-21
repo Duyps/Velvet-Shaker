@@ -1,0 +1,8 @@
+.line{
+    width: 95vw;
+    height: 0.7px;
+    background-color: var(--light);
+    margin: 0 auto;
+    transform-origin: left;  /* Điểm gốc xuất phát */
+    transform: scaleX(0);  
+}

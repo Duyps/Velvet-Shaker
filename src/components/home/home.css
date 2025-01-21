@@ -1,0 +1,94 @@
+.homeOccasions{
+    margin: 40px 20px;
+    position: relative;
+    margin-bottom: 150px;
+    .homeOccasion-containers{
+        display: flex;
+        
+        .HO-container{
+            border-right: solid 1px var(--light-05);
+            margin-top: 30px;
+            width: 30vw;
+            padding: 0 20px;
+            h3{
+                margin-top: 0;
+            }
+            img{
+                width: 25vw;
+            }
+            p{
+                font-size: 16px;
+                margin-top: 20px;
+            }
+    
+        }
+    }
+    /*.HO-container:first-child{
+        position: absolute;
+        left: 0;
+    }
+    .HO-container:nth-child(2){
+        position: absolute;
+        top: 350px;
+        left: calc(30vw + 20px);
+    }
+    .HO-container:nth-child(3){
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }*/
+}
+
+.homeContact{
+    margin: 50px 20px;
+    margin-bottom: 150px;
+    width: calc(100%-40px);
+    .contact-content{
+        display: flex;
+        justify-content: space-between;
+        .visit,
+        .contact,
+        .socials{
+            float: left;
+            width: 30%;
+            .contain{
+                margin-top: 20px;
+            }
+            .contact-heading{
+                font-size: 36px;
+                padding: 60px 0;
+                font-weight: 600;
+                border-bottom: solid 1px var(--light-05);
+                
+            }
+            h4{
+                margin: 0;
+            }
+            p{
+                color: var(--light-08);
+            }
+            p:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .socials{
+            .contain{
+                display: flex;
+                i{
+                    font-size: larger;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .homeContact-picture{
+        display: flex;
+        margin: 50px auto;
+        justify-content: space-between;
+        img{
+            width: 21vw;
+            
+        }
+    }
+}

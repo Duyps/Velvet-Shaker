@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    position: relative;
+    width: 95vw;
+    height: 100px;
+    border-bottom: solid 0.1px var(--light-03);
+    margin: 20px 0;
+    .menu-name{
+        .name{
+            font-size: 35px;
+            position: relative;
+            transition: all 0.3s ease-in;
+            
+        }
+    }
+    .menu-name::before{
+        content: ">";
+        font-size: 35px;
+        font-weight: 800;
+        position: absolute;
+        opacity: 0;
+        transition: all 0.3s ease-in;
+    }
+    
+    
+    .menu-decs{
+        width: 20vw;
+        position: absolute;
+        right: 50px;
+        .decs{
+            font-size: 16px;
+            opacity: 0;
+            transition: all 0.3s ease-out;
+            filter: blur(5px);
+        }
+    }
+}
+.container:hover .menu-name::before{
+    opacity: 1;
+}
+.container:hover .name{
+    transform: translateX(30px);
+}
+.container:hover .decs{
+    opacity: 1;
+    filter: blur(0px);
+}
+.menu-content:first-child{
+    border-top: solid 1px var(--light);
+}
+.menu-content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HMenu{
+    margin: 70px 20px;
+}
+
+
+.menu{
+    margin: 0 20px;
+    padding-bottom: 150px;
+    h1{
+        margin: 0;
+        padding-bottom: 30px;
+        padding-top: 150px;
+        font-weight: 500;
+    }
+    img{
+        width: 100%;
+    }
+    .category{
+        .items{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            padding-top: 50px;
+            .item{
+                border-top: solid 1px var(--light-08);
+                display: flex;
+                flex-direction: column;
+                .name{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0;
+                    p{
+                        font-size: 26px;
+                    }
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+}
+
+
