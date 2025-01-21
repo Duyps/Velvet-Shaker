@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Velvet-Shaker/static/css/main.15c22485.css",
+    "main.js": "/Velvet-Shaker/static/js/main.390919af.js",
+    "index.html": "/Velvet-Shaker/index.html",
+    "main.15c22485.css.map": "/Velvet-Shaker/static/css/main.15c22485.css.map",
+    "main.390919af.js.map": "/Velvet-Shaker/static/js/main.390919af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15c22485.css",
+    "static/js/main.390919af.js"
+  ]
+}
