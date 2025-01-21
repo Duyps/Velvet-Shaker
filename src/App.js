@@ -3,7 +3,6 @@ import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import About from './components/about/About';
 import Home from './components/home/Home';
-import Header from './components/common/header/Header';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
 import Shop from './components/shop/Shop';
@@ -18,7 +17,7 @@ function App() {
     <>
       
       <Router>
-        <Header/>
+        <Home/>
         <Switch>
           <Route exact path='/' component={Home}/>          
           <Route exact path='/about' component={About}/>
